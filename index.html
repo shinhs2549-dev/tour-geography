@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>여행지리 2학기 핵심 정리</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1b1f24; --sub:#4a525c; --line:#cfd5dc; --accent:#0f5f6b; --accent-soft:#e6f1f2;
+    --sup:#8a4b00; --sup-soft:#fff6e8; --warn:#b3261e; --warn-soft:#fdecea;
+  }
+  @page{ size:A4; margin:13mm 13mm 14mm; }
+  *{ box-sizing:border-box; }
+  html,body{ background:#fff; color:var(--ink); }
+  body{ margin:0; font-family:"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",sans-serif; font-size:9.6pt; line-height:1.58; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .sheet{ max-width:184mm; margin:0 auto; padding:12px 0 24px; }
+  @media screen{ .sheet{ padding:24px 16px 40px; } }
+
+  header.top{ border-bottom:2.5px solid var(--ink); padding-bottom:8px; margin-bottom:10px; display:flex; justify-content:space-between; align-items:flex-end; gap:12px; flex-wrap:wrap; }
+  header.top .kicker{ font-size:8.5pt; color:var(--accent); font-weight:700; letter-spacing:.04em; }
+  header.top h1{ margin:2px 0 0; font-size:17pt; font-weight:900; letter-spacing:-.02em; }
+  .who{ display:flex; gap:10px; font-size:9pt; }
+  .who span{ border-bottom:1px solid var(--ink); padding:0 4px 1px; min-width:70px; display:inline-block; }
+  .who span.wide{ min-width:110px; }
+
+  .guide{ display:flex; gap:14px; flex-wrap:wrap; font-size:8.3pt; color:var(--sub); margin:0 0 12px; }
+  .guide i{ display:inline-block; width:10px; height:10px; border-radius:2px; vertical-align:-1px; margin-right:4px; }
+
+  h2.unit{ font-size:10.5pt; font-weight:900; color:#fff; background:var(--accent); padding:4px 10px; margin:16px 0 8px; border-radius:3px; break-after:avoid; page-break-after:avoid; }
+  h2.unit small{ font-weight:500; opacity:.85; margin-left:6px; }
+
+  .item{ border:1px solid var(--line); border-radius:5px; padding:8px 11px 9px; margin:0 0 8px; break-inside:avoid; page-break-inside:avoid; }
+  .item.long{ break-inside:auto; page-break-inside:auto; }
+  .ihead{ display:flex; align-items:baseline; gap:8px; margin-bottom:4px; flex-wrap:wrap; }
+  .num{ font-weight:900; color:var(--accent); font-size:11pt; min-width:20px; }
+  .ttl{ font-weight:900; font-size:10.6pt; }
+  .pg{ margin-left:auto; font-size:8pt; font-weight:700; color:var(--accent); background:var(--accent-soft); border:1px solid #b9d6d9; border-radius:10px; padding:0 8px; white-space:nowrap; }
+
+  ul{ margin:2px 0 0; padding-left:15px; }
+  li{ margin:1px 0; }
+  li::marker{ color:var(--accent); }
+  p{ margin:2px 0; }
+  b{ font-weight:700; }
+  .k{ font-weight:700; background:linear-gradient(transparent 72%, #bfe0e4 72%); }
+  .src{ color:var(--sub); font-size:8.2pt; }
+
+  table{ width:100%; border-collapse:collapse; margin:4px 0 2px; font-size:8.9pt; }
+  th,td{ border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  th{ background:#f2f4f6; font-weight:700; white-space:nowrap; }
+
+  .sup{ margin-top:6px; background:var(--sup-soft); border:1px dashed #e0b77a; border-radius:4px; padding:5px 9px 6px; }
+  .sup .tag{ display:inline-block; font-size:7.8pt; font-weight:700; color:#fff; background:var(--sup); border-radius:3px; padding:0 6px; margin-bottom:2px; }
+  .sup li::marker{ color:var(--sup); }
+  .warn{ margin-top:6px; background:var(--warn-soft); border:1.5px solid var(--warn); border-radius:4px; padding:5px 9px; font-weight:700; color:var(--warn); }
+  .note{ margin-top:5px; font-size:8.6pt; color:var(--sub); }
+
+  .cols2{ display:grid; grid-template-columns:1fr 1fr; gap:6px 14px; }
+  @media (max-width:560px){ .cols2{ grid-template-columns:1fr; } .pg{ margin-left:0; } }
+  footer{ margin-top:14px; font-size:8pt; color:var(--sub); text-align:center; }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+<header class="top">
+  <div>
+    <div class="kicker">여행지리 · 2학기 지필평가 대비</div>
+    <h1>시험 범위 핵심 정리 학습지</h1>
+  </div>
+  <div class="who">학번 <span></span> 이름 <span class="wide"></span></div>
+</header>
+
+<div class="guide">
+  <div><i style="background:var(--accent-soft);border:1px solid #b9d6d9"></i>교과서 내용 (쪽수 = 교과서 페이지)</div>
+  <div><i style="background:var(--sup-soft);border:1px dashed #e0b77a"></i>교과서 밖 보충 · 수업 시간 설명</div>
+</div>
+
+<!-- ================= Ⅲ ================= -->
+<h2 class="unit">Ⅲ. 다채로운 문화를 찾아가는 여행 <small>1. 축제 여행</small></h2>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">베네치아</span><span class="pg">교과서 p.92, 168</span></div>
+  <ul>
+    <li><span class="k">베네치아 카니발</span>은 <b>이탈리아의 북동쪽</b>에 있는 베네치아에서 매년 <b>1월 말에서 2월 사이 약 10일 동안</b> 열린다.</li>
+    <li>볼거리: 베네치아 공화국이 아퀼레이아 도시와의 전쟁에서 승리한 날을 기념하는 경축 행사, 공중 곡예, 민속 전시회, 말을 이용한 스포츠, <b>가면 축제나 불꽃놀이</b></li>
+    <li>가면을 쓰는 풍습은 <b>13세기 무렵</b> 등장 → <b>1204년 제4차 십자군 원정대</b>가 귀환하면서 데려온 <b>이슬람교도 여성들이 착용한 베일</b>을 보고, 얼굴을 가리는 것에 매력을 느껴 가면이 유행하였다.</li>
+    <li><span class="k">가면은 축제의 꽃</span>이며, 축제의 분위기를 더욱 화려하고 신비롭게 만든다. <b>산 마르코 광장</b>은 과거와 현재의 시간이 만나는 장이다.</li>
+  </ul>
+  <div class="sup"><span class="tag">교과서 밖 보충</span>
+    <ul>
+      <li><b>위치</b>: 이탈리아 북동부 <span class="k">아드리아해</span> 안쪽의 얕은 석호(라군) 위 100여 개의 섬으로 이루어진 도시</li>
+      <li>섬과 섬 사이를 <b>운하</b>로 연결 → <span class="k">‘물의 도시’, ‘운하의 도시’</span>. 길 대신 운하를 따라 곤돌라·수상 버스로 이동</li>
+      <li><b>침수 문제</b>: 바닷물이 크게 차오르면 도심이 잠기는 ‘아쿠아 알타(높은 물)’ 현상이 있는데, 최근 <span class="k">지구 온난화에 따른 해수면 상승</span>과 땅이 내려앉는 현상(지반 침하)이 겹쳐 침수가 더 잦고 심해지고 있다. (2019년 11월 대규모 침수 때는 산 마르코 광장과 대성당까지 물에 잠김)</li>
+      <li>대책: 바다와 석호 사이 입구에 바닷물을 막는 이동식 방벽(모세, MOSE) 설치</li>
+      <li class="src">※ 교과서 p.204에도 “지구 온난화에 따른 해수면 상승”이 미래 여행 환경 변화로 나옴</li>
+    </ul>
+  </div>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">부뇰 토마토 축제(라 토마티나)</span><span class="pg">교과서 p.94</span></div>
+  <ul>
+    <li><b>에스파냐 발렌시아 지방의 부뇰</b>에서 매년 <b>8월</b>에 열린다. → <span class="k">따뜻한 기후와 토마토의 수확 시기</span>에 맞추어져 있다.</li>
+    <li>유래(가장 널리 알려진 설): ‘거인과 큰 머리’ 인형 행렬 민속 축제에서 청소년들이 노점의 채소를 던지며 싸움 → 다음 해인 <b>1946년 8월 마지막 주 수요일</b>에 집에서 토마토를 들고 나와 던지며 싸움 → 이후 <b>8월 마지막 수요일</b>마다 토마토 던지기 유행 → 오늘날의 <span class="k">‘라 토마티나’</span>로 발전</li>
+    <li><b>성공 조건</b>: 국내외 여행자는 물론 <span class="k">지역 주민들의 참여 의식이 매우 높다.</span> 주민은 집이 더럽혀지는 것을 마다하지 않고 스스로 축제의 한 부분이 되는 것을 자랑스럽게 생각하며, 축제가 끝나면 질서 있게 도시를 정비하는 <span class="k">성숙한 시민 의식</span>을 갖추고 있다.</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">올림픽의 기원</span><span class="pg">교과서 p.96</span></div>
+  <ul>
+    <li><b>고대 올림픽</b>: <span class="k">그리스인들이 제우스 신에게 바치는 제전 경기</span>에서 시작 → 1,200여 년 동안 계속</li>
+    <li>로마 지배 시기, 크리스트교를 국교로 정한 <b>테오도시우스 황제</b>가 올림픽을 <b>이교도들의 종교 행사</b>로 규정하고 폐지 선포 → <b>393년 제293회</b>를 마지막으로 막을 내림</li>
+    <li><b>근대 올림픽</b>: 프랑스의 <span class="k">쿠베르탱</span>의 노력으로 <span class="k">1896년 제1회 근대 올림픽</span> 시작</li>
+    <li>목적: 전쟁에 패하여 사기가 저하된 프랑스 청소년들에게 용기와 의욕을 북돋워 주고, 세계 각국 청소년들의 상호 이해와 우정을 다지는 <span class="k">‘세계 인류 평화의 제전’</span>을 이룩하려는 것</li>
+    <li>현재는 하계 올림픽과 동계 올림픽이 각각 <b>4년 주기</b>로 열린다.</li>
+  </ul>
+</div>
+
+<h2 class="unit">Ⅲ. 다채로운 문화를 찾아가는 여행 <small>2. 문화 여행 — 종교 · 건축물</small></h2>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">종교 여행 에티켓</span><span class="pg">교과서 p.101</span></div>
+  <ul>
+    <li>종교 여행에서는 종교마다 <b>복장에 금기 사항</b>이 많다. 기본적으로 <span class="k">단정한 옷차림</span>을 해야 한다.</li>
+    <li>실내를 관람할 때는 예배를 드리는 성직자나 신도에게 방해되지 않도록 <span class="k">엄숙한 태도</span>를 취한다.</li>
+    <li>박물관이나 기념관 방문 시 입장 대기 시간이 있으므로 <b>충분한 시간적 여유</b>를 가진다.</li>
+    <li><b>내부 사진 촬영을 제한</b>하는 장소가 많다. 안내를 받거나 <span class="k">촬영 가능한지 확인한 후</span> 촬영한다.</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">3개 종교의 성지, 예루살렘</span><span class="pg">교과서 p.102~103</span></div>
+  <table>
+    <tr><th>크리스트교</th><td>예수가 활동하고 순교했다고 알려진 <b>예루살렘</b>. <span class="k">만국 교회</span>가 위치한 <span class="k">겟세마네 동산</span> → 예수가 권력자들에게 체포된 장소이자 마지막으로 기도를 한 곳, 예수가 십자가에 달려 죽었다가 사흘 만에 부활한 곳이라 믿는 장소, 예수가 다시 땅으로 내려오겠다고 약속한 곳 (p.102)</td></tr>
+    <tr><th>이슬람교</th><td>이슬람교 성지: 사우디아라비아의 메카, <span class="k">예루살렘의 바위 사원</span>, 튀르키예 이스탄불의 술탄 아흐메드 모스크 (p.103)</td></tr>
+    <tr><th>유대교</th><td><span class="src">교과서에는 없음 → 아래 보충 참고</span></td></tr>
+  </table>
+  <div class="sup"><span class="tag">교과서 밖 보충</span>
+    <ul>
+      <li>예루살렘은 <span class="k">유대교 · 크리스트교 · 이슬람교</span> 세 종교가 모두 성지로 여기는 도시</li>
+      <li><b>유대교</b>: <span class="k">통곡의 벽</span> — 옛 유대교 성전의 남은 서쪽 벽으로, 유대교 최고의 성지</li>
+      <li><b>이슬람교</b>: 바위 사원 — 무함마드가 하늘로 올라갔다고 믿는 바위 위에 세운 사원 (황금빛 돔)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">이슬람교의 의무와 문화</span><span class="pg">교과서 p.103</span></div>
+  <ul>
+    <li><span class="k">하지</span>: 이슬람 성지 <b>메카</b>를 순례하며 정해진 의식을 치르는 것. 세계 곳곳의 이슬람교도들은 순례의 달에 메카의 <b>카바 신전(알라의 집)</b>을 방문한다. → <span class="k">메카 방문은 이슬람교도의 의무 사항</span></li>
+    <li>이슬람교는 <span class="k">돼지고기와 술을 금지</span>하고, <span class="k">일정한 시각에 예배</span>를 드린다.</li>
+    <li>이슬람 국가에서 볼 수 있는 문화: 공항 내부의 <b>예배 시설</b>, 호텔에 표시된 <b>메카 방향의 표식</b>, 새벽녘에 들려오는 <b>아잔</b> 소리(예배 시간을 육성으로 알리는 소리)</li>
+    <li>구도심 경관: 거리는 복잡한 미로로 얽혀 있지만, 중앙의 사원, <b>‘수크’라고 부르는 시장</b>, 술탄의 궁전 등은 성채로 둘러싸여 있다.</li>
+    <li><b>할랄 식품</b>: 이슬람교도가 먹을 수 있도록 허용된 식품 (서울 이태원의 이슬람 사원 앞 거리)</li>
+  </ul>
+  <div class="sup"><span class="tag">교과서 밖 보충</span>
+    <ul>
+      <li>이슬람교도의 <b>5대 의무</b>: ① 신앙 고백 ② 예배(하루 다섯 번, 메카 방향) ③ 자선(가난한 이웃 돕기) ④ 단식(<span class="k">라마단</span> 기간에 해가 떠 있는 동안 금식) ⑤ 성지 순례(<span class="k">하지</span>)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">캄보디아의 앙코르 와트</span><span class="pg">교과서 p.104~105</span></div>
+  <ul>
+    <li>고대 건축 여행지(남아메리카 마추픽추, 북아프리카 아이트 벤 하두, <b>동남아시아의 앙코르 와트</b>)</li>
+    <li>캄보디아에서는 <span class="k">열대 우림 속에 사라져 간 고대 건축물</span>의 흔적을 볼 수 있다. 울창한 밀림 속에서 <b>돌로 쌓은</b> 독특한 모습의 수많은 사원을 만날 수 있고, 높게 치솟은 사원에서는 <b>신에게 다가가고자 하는 바람</b>을 엿볼 수 있다.</li>
+    <li><span class="k">크메르 제국</span>의 왕과 왕족은 사람이 죽으면 그가 믿던 신과 합일한다는 신앙 때문에 <b>자신과 합일할 신의 사원을 건립</b>하는 풍습이 있었다.</li>
+    <li>앙코르 와트의 미술적 건축 양식은 <span class="k">인도의 영향</span>을 받기도 하였지만, 커다란 뱀, 창문이나 기둥의 장식 조각 등에서 <span class="k">크메르 제국의 독자적인 양식</span>을 찾아볼 수 있다.</li>
+    <li>주변 사원: <b>따프롬 사원</b>(자야바르만 7세가 모친을 위해 건립, 영화 「툼레이더」 촬영지), <b>바이욘 사원</b>(신들이 사는 천상 세계를 표현)</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">가우디의 건축물</span><span class="pg">교과서 p.106</span></div>
+  <ul>
+    <li><b>에스파냐의 바르셀로나</b>에서 <span class="k">현대 건축의 거장인 가우디</span>의 건축물을 만날 수 있다. 건축물이기보다 <b>조각처럼</b> 보인다.</li>
+    <li>그는 <span class="k">자연에서 영감</span>을 얻어 건축물에 <span class="k">곡선</span>을 많이 사용하였다. 섬세하면서도 강렬한 색상의 장식으로 단장하였다.</li>
+    <li><b>카사 밀라</b>: 공동 주택의 모델 제시. 한쪽에서 보면 일렁이는 파도 같고, 정면에서 보면 암벽을 깎아 놓은 듯하다.</li>
+    <li><b>카사 바트요</b>: 바다를 주제로 한 구불구불한 공간미가 강조된 건축물</li>
+    <li><b>구엘 공원</b>: 콜로네이드 홀과 기둥이 늘어선 길은 아늑하면서도 인간의 정을 느낄 수 있는 푸근한 공간. 곳곳에서 용이 꿈틀거리는 형상</li>
+    <li><span class="k">사그라다 파밀리아 성당</span>: 100년이 넘게 공사 중인 역작, 2026년 완공 예정 (교과서 기준)</li>
+    <li>이 건축물들은 <b>세계 유산</b>으로 등록되어 있다.</li>
+  </ul>
+</div>
+
+<h2 class="unit">Ⅲ. 다채로운 문화를 찾아가는 여행 <small>2. 문화 여행 — 음식</small></h2>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">국가별 전통 음식</span><span class="pg">교과서 p.107</span></div>
+  <p>음식 여행이란 세계 각국의 독특한 전통 음식을 맛보는 여행. 음식 속에는 <span class="k">지역성</span>이 담겨 있다.</p>
+  <table>
+    <tr><th>국가</th><th>음식</th><th>국가</th><th>음식</th></tr>
+    <tr><td>러시아</td><td><b>피로그</b> — 러시아식 파이</td><td>인도</td><td><b>커리</b> — 향신료를 넣어 만든 음식</td></tr>
+    <tr><td>에스파냐</td><td><b>파에야</b> — 쌀과 해산물(고기)을 볶아 해산물 육수로 졸인 음식</td><td>인도네시아</td><td><b>나시고렝</b> — 인도네시아의 볶음밥</td></tr>
+    <tr><td>중국</td><td><b>후어궈</b> — 중국식 샤브샤브</td><td>우리나라</td><td><b>비빔밥</b> — 고기나 나물과 양념을 넣어 비벼 먹는 밥</td></tr>
+    <tr><td>일본</td><td><b>소바</b> — 메밀 국수</td><td>멕시코</td><td><b>타코</b> — 토르티야에 고기, 토마토, 양배추, 치즈, 양파 등을 넣어 먹는 음식</td></tr>
+    <tr><td>미국</td><td><b>에그 베네딕트</b> — 미국식 샌드위치</td><td>브라질</td><td><b>슈하스코</b> — 고기와 채소, 과일을 꼬치에 꿰어 숯불에 구운 음식</td></tr>
+    <tr><td>이탈리아</td><td><b>리소토</b> — 쌀로 만든 이탈리아 요리</td><td>튀르키예</td><td><b>케밥</b>, 고등어 케밥, 에크멕(주식 전통 빵) <span class="src">(p.110)</span></td></tr>
+  </table>
+  <div class="sup"><span class="tag">교과서 밖 보충</span>
+    <ul>
+      <li><b>러시아 ‘보드카’</b>: 겨울이 길고 매우 추운 <span class="k">냉대 기후</span> 지역이라 몸을 데우기 위해 <b>도수가 높은 술</b>을 많이 마시는 문화가 발달 → 러시아를 대표하는 술</li>
+    </ul>
+  </div>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">열대 기후 지역과 냉대 기후 지역 음식의 특징</span><span class="pg">교과서 p.107</span></div>
+  <ul>
+    <li>동남아시아의 <b>더운 나라</b>에서는 <span class="k">과채류가 풍부하여 과일과 채소를 이용한 음식</span>이 발달해 있다.</li>
+    <li>기후적인 조건 때문에 <span class="k">저위도 지역</span>에서는 <span class="k">향신료를 사용하며 맵고 짜게</span> 음식을 하고, <span class="k">고위도 지역</span>에서는 <span class="k">담백하고 싱겁게</span> 조리를 한다.</li>
+  </ul>
+  <div class="sup"><span class="tag">교과서 밖 보충</span>
+    <table>
+      <tr><th>열대 기후 지역<br>(저위도)</th><td>덥고 습해 음식이 쉽게 상함 → <b>향신료</b>를 많이 써서 부패를 막고 입맛을 돋움 · 맵고 짠 맛 · 쌀(벼농사)을 이용한 볶음밥·쌀국수 (예: 인도네시아 나시고렝, 타이 팟타이, 인도 커리)</td></tr>
+      <tr><th>냉대 기후 지역<br>(고위도)</th><td>겨울이 길고 추움 → <b>담백하고 싱거운</b> 맛 · 추위를 견디기 위한 고기·유제품 등 열량이 높은 음식 · 감자·밀·호밀 이용 · 긴 겨울에 대비해 훈제·절임 등 <b>저장 음식</b> 발달 · 추위 때문에 도수 높은 술을 많이 마심 (예: 러시아 피로그, <b>보드카</b>)</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="item long">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">프랑스 · 일본 · 타이(태국)의 음식 문화</span><span class="pg">교과서 p.108~110</span></div>
+  <table>
+    <tr><th>프랑스<br><span class="src">p.108</span></th><td>유럽에서도 <b>비옥한 땅</b>을 가진 프랑스는 손쉽게 좋은 재료를 구할 수 있어 음식 문화가 발달하였다. 프랑스의 <span class="k">미식 문화는 유네스코 세계 무형 문화재에 정식 등재</span>될 만큼 하나의 문화로 자리 잡았다.<br>
+      · <b>치즈</b>는 프랑스인들에게 우리나라의 <b>김치 같은 존재</b><br>
+      · 포도밭이 많은 프랑스에서 포도나무를 망친 달팽이를 식용으로 씀 → <span class="k">에스카르고</span>(달팽이 요리)는 오늘날 고급 요리<br>
+      · 파리의 바스티유 시장 — 노천 시장에서 치즈, 빵, 올리브 절임 등</td></tr>
+    <tr><th>일본<br><span class="src">p.109</span></th><td>일본의 음식은 <span class="k">향신료의 사용을 억제하고 재료 고유의 맛을 최대한 살려 담백한 맛</span>을 내며, 다양한 재료와 풍부한 <b>계절 감각</b>으로 <b>시각적인 아름다움</b>을 제공한다.<br>
+      · <b>초밥</b>: 싱싱한 생선을 얹은 일본의 전통 요리<br>
+      · <b>돈부리</b>: 그릇에 밥을 담고 밥 위에 반찬이 되는 요리를 올려놓는 것<br>
+      · <b>오코노미야키</b>: 한국의 빈대떡과 비슷한 부침 요리<br>
+      · 오사카의 구로몬 시장 — 200년 된 전통 시장, ‘일본의 부엌’</td></tr>
+    <tr><th>타이<br><span class="src">p.110</span></th><td>타이 음식은 <span class="k">조리법과 재료, 맛을 표현하는 말을 활용하여 이름</span>을 지은 것이 많다. 예) <b>팟패탈래</b> = 해산물(탈래)을 볶은(팟) 매운(패) 요리 → 기본 표현만 알면 메뉴를 이해하고 주문할 수 있다.<br>
+      · <b>팟타이</b>: ‘팟’은 볶음 → 타이식 볶음 쌀국수, 땅콩 가루와 피시 소스를 곁들임<br>
+      · <b>카오팟</b>: 타이식 볶음밥<br>
+      · 방콕의 수상 시장 — 좁은 운하를 지나는 작은 배 위에서 식료품과 음식을 사고팖</td></tr>
+  </table>
+</div>
+
+<h2 class="unit">Ⅲ. 다채로운 문화를 찾아가는 여행 <small>2. 문화 여행 — 예술</small></h2>
+
+<div class="item long">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">고흐의 화풍 변화 (거주 지역별)</span><span class="pg">교과서 p.111~112</span></div>
+  <ul>
+    <li>프랑스의 각 도시를 배경으로 <b>고흐, 세잔, 모네</b> 등의 화가가 미술 활동을 한 장소나 작품의 배경이 된 장소를 찾아가는 여행. 특히 <span class="k">남프랑스</span>는 수많은 <b>인상파 예술가</b>가 오래도록 머물며 작품 활동을 했던 곳 (p.111)</li>
+    <li>고흐의 「<span class="k">아를의 포룸 광장의 카페 테라스</span>」의 배경이 된 곳은 <b>프랑스 남부 프로방스 지방의 아를</b> → 배경이 된 실제 카페에서 작품을 생각하며 여유를 즐길 수 있다. (p.112)</li>
+    <li>광기에 휩싸여 스스로 생을 마감한 고흐의 불행한 삶에 대한 안타까움과 위대한 작품에 대한 경외와 찬사를 동시에 느낄 수 있다.</li>
+    <li class="src">비교) 모네: 파리의 마르모탕·오랑주리 미술관 → 지베르니의 모네의 집과 정원, 「수련」</li>
+  </ul>
+  <div class="sup"><span class="tag">교과서 밖 보충 · 수업 설명</span>
+    <table>
+      <tr><th>① 네덜란드</th><td><b>어둡고 칙칙한 갈색 톤</b>, 가난한 농민·노동자의 삶을 그림 — 「감자 먹는 사람들」</td></tr>
+      <tr><th>② 파리</th><td>인상파와 일본 판화(우키요에)의 영향 → <b>색이 밝아짐</b>, 짧은 붓질 — 여러 점의 자화상</td></tr>
+      <tr><th>③ 아를<br>(남프랑스)</th><td>강렬한 햇빛 → <span class="k">노란색 등 강렬하고 밝은 색채</span>, 두꺼운 붓질 — 「해바라기」, 「아를의 포룸 광장의 카페 테라스」, 「론강의 별이 빛나는 밤」, 「노란 집」</td></tr>
+      <tr><th>④ 생레미<br>(요양원)</th><td>정신적 고통 속에서 <b>소용돌이치는 듯한 붓질</b> — 「별이 빛나는 밤」</td></tr>
+      <tr><th>⑤ 오베르<br>쉬르우아즈</th><td>생애 마지막 시기 — 「까마귀가 나는 밀밭」, 이곳에서 생을 마감</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">모차르트의 고향과 사운드 오브 뮤직</span><span class="pg">교과서 p.113</span></div>
+  <ul>
+    <li>베토벤과 모차르트 등 <b>클래식 음악가의 흔적</b>을 찾아 떠나는 여행: 베토벤의 생가와 박물관이 있는 <b>독일의 본</b>, 슈베르트의 가곡 흔적을 찾는 <b>빈</b></li>
+    <li><span class="k">모차르트가 태어난 오스트리아 잘츠부르크</span>의 <b>음악 축제 기간</b>에 맞추어 음악 축제도 즐기고 <b>모차르트의 동상이 있는 광장</b>을 유유히 걷는 여행</li>
+  </ul>
+  <div class="sup"><span class="tag">교과서 밖 보충 · 수업 설명</span>
+    <ul>
+      <li>영화 <span class="k">「사운드 오브 뮤직」(1965)</span>의 배경이자 촬영지도 <span class="k">잘츠부르크</span>! → 모차르트와 함께 잘츠부르크를 대표하는 관광 자원</li>
+      <li>실제 있었던 <b>트라프 가족</b> 이야기를 바탕으로 한 뮤지컬 영화 — 가정교사 마리아와 일곱 아이들</li>
+      <li>미라벨 정원 등에서 ‘도레미 송’을 촬영 → 지금도 영화 촬영지를 따라가는 투어가 인기</li>
+    </ul>
+  </div>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">비틀스와 리버풀</span><span class="pg">교과서 p.113</span></div>
+  <ul>
+    <li>현대 대중음악에서는 <b>팝의 전설</b>로 불리는 <span class="k">비틀스의 고향</span>을 찾아가는 것도 의미 있는 음악 여행</li>
+    <li>1960년대 등장한 비틀스는 로큰롤 기반이지만 록, 컨트리, 알앤비, 팝, 블루스, 재즈까지 폭넓은 장르로 대중에게 다가갔다. 현악기와 신시사이저 등을 도입해 록 음악의 음향의 폭을 넓힘 → <span class="k">팝의 클래식</span></li>
+    <li><span class="k">영국의 리버풀</span>은 비틀스가 <b>결성되어 작곡, 연주 등 음악 활동을 한 곳</b> → 초창기 활동 무대를 돌아보는 여행지. 동상, 거닐던 거리, 노래를 부르던 클럽에 진열된 악기 등 볼거리가 다양하다.</li>
+    <li><b>뉴욕</b>: 비틀스의 첫 미국 공연지, 멤버 <b>존 레넌</b>이 살다가 피격으로 세상을 떠난 곳 · <b>런던 애비 로드</b>: 앨범 표지를 촬영한 건널목</li>
+  </ul>
+  <div class="sup"><span class="tag">교과서 밖 보충 · 수업 설명</span>
+    <ul>
+      <li>리버풀의 공항 이름이 <span class="k">‘리버풀 존 레넌 국제공항’</span>일 정도로 <b>리버풀 하면 비틀스!</b> (공항 표어도 존 레넌의 노래 가사 “Above us only sky”)</li>
+      <li>참고로 <b>여행지리 선생님은 리버풀 팬</b>이다. ⚽</li>
+    </ul>
+  </div>
+</div>
+
+<h2 class="unit">Ⅲ. 다채로운 문화를 찾아가는 여행 <small>3. 도시와 촌락 여행</small></h2>
+
+<div class="item long">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">세계 도시의 랜드마크 — 자유의 여신상 · 오페라하우스 · 싱가포르</span><span class="pg">교과서 p.116~117</span></div>
+  <table>
+    <tr><th>뉴욕<br>자유의 여신상</th><td>뉴욕은 세계의 경제와 문화가 집결된 <b>세계 도시</b>. 먼저 <span class="k">뉴욕의 상징인 자유의 여신상</span>을 바라보며 <b>자유의 의미</b>를 음미해 본다.<br>
+      · <b>월가</b>: 세계 금융 시장의 중심가(뉴욕 주식 거래소, 증권 회사, 은행) · <b>브로드웨이</b>: 타임스스퀘어 중심, 뮤지컬 극장 (p.116)</td></tr>
+    <tr><th>시드니<br>오페라하우스</th><td>오스트레일리아 시드니에는 <span class="k">세계 유산으로 등록된 오페라하우스</span>가 있다. 하버브리지의 남동쪽, <b>공연 예술의 중심지</b>로서 극장, 연주회장, 녹음실, 전시장, 도서관 등을 갖춘 <b>복합 건물</b>. 항구에 접한 <span class="k">둥근 천장의 건축물은 바다와 어우러져</span> 한 폭의 그림과 같은 예술성이 돋보인다. 창의력과 혁신적인 건축 기법을 결합한 건축물 (p.117)</td></tr>
+    <tr><th>싱가포르<br>마리나 베이 샌즈</th><td>싱가포르는 <span class="k">하나의 도시로 이루어진 국가(도시 국가)</span>. <b>중국인, 말레이인, 인도인</b> 등 다양한 민족으로 구성 → 다양한 종교와 민족이 혼합된 거리, 깨끗한 도로, 친환경적으로 설계된 미래 도시상이 매력.<br>
+      · <span class="k">마리나 베이 샌즈</span>: 싱가포르 랜드마크로 자리 잡은 복합 리조트(컨벤션 센터, 극장, 박물관, 카지노), <b>우리나라 ‘쌍용건설’이 건설</b><br>
+      · 가든스 바이 더 베이: 가장 큰 공원, 야간 슈퍼트리 쇼 (p.117)</td></tr>
+  </table>
+</div>
+
+<h2 class="unit">Ⅲ. 다채로운 문화를 찾아가는 여행 <small>4. 우리나라의 문화 여행</small></h2>
+
+<div class="item long">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">우리나라의 축제</span><span class="pg">교과서 p.125~126</span></div>
+  <p>축제는 그 지역의 역사와 문화, 사회 환경을 포함한 <span class="k">장소성</span>이 잘 반영된 유·무형 유산을 활성화하여 개최되는 것이다.</p>
+  <table>
+    <tr><th>화천 산천어 축제(1월)</th><td>청정 환경을 상징하는 <b>산천어</b>를 소재로 얼음낚시, 얼음 썰매 등 <b>겨울 놀이</b></td></tr>
+    <tr><th>이천 도자기 축제(4~5월)</th><td>생생한 <b>도자기</b> 역사 현장을 재현하고 교육의 장으로 꾸밈</td></tr>
+    <tr><th>함평 나비 축제(4~5월)</th><td>살아 있는 <b>나비</b>와 자연을 소재로 한 <b>생태 학습 축제</b></td></tr>
+    <tr><th>제주 유채꽃 축제(4월)</th><td>푸른 바다, 돌담, 노란 <b>유채꽃</b>의 세 가지 색이 어우러진 축제</td></tr>
+    <tr><th>보령 머드 축제(7월)</th><td><b>진흙</b>을 주제로 하는 <b>관광객 체험형</b> 이벤트, 진흙 마사지와 다양한 놀이</td></tr>
+    <tr><th>진주 남강 유등 축제(10월)</th><td>남강과 진주성 일원에서 색색의 등불을 띄우는 <b>유등놀이</b>에서 기원</td></tr>
+    <tr><th>강릉 단오제</th><td>음력 4월 5일~5월 5일(단오) 전후의 <b>향토 제례 의식</b>. 풍년을 빌고 재앙을 쫓는 <b>단오굿</b>, 전통 음악, 민요, 민속놀이(그네 타기). <span class="k">전국 최대 규모의 노천 시장</span>이 중요한 요소 (p.126)</td></tr>
+    <tr><th>진천 농다리 축제</th><td>충청북도 진천, <b>미호천</b>을 가로지르는 <b>농다리 위</b>에서 상여 행렬, 풍물놀이 등. 문화재의 의미와 가치를 직접 보고 느낄 기회 (p.126)</td></tr>
+  </table>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">유네스코 세계 유산 — 백제 역사 유적 지구</span><span class="pg">교과서 p.127, 129</span></div>
+  <ul>
+    <li>우리나라에는 <b>15개</b>의 유네스코 세계 유산이 등재 → <b>자연 유산 2개, 문화유산 13개</b> (p.127)</li>
+    <li>백제 역사 유적 지구는 <span class="k">충청남도 부여와 공주, 전라북도 익산의 3개 지구에 8개 유산</span>이 분포 (p.129)
+      <table>
+        <tr><th>공주</th><td>공산성, 송산리 고분군</td></tr>
+        <tr><th>부여</th><td>관북리 유적과 부소산성, 능산리 고분군, 정림사지, 나성</td></tr>
+        <tr><th>익산</th><td>왕궁리 유적, 미륵사지</td></tr>
+      </table>
+    </li>
+    <li><b>부여</b>는 왕궁터, 성곽, 능묘, 사찰 등을 <b>근거리 이동하면서 모두</b> 살펴볼 수 있는 여행지</li>
+    <li>왕궁터와 사찰 → 공간적 시설 배치와 건축 기술 / 능묘나 성곽 → 자연환경의 지리적 입지 이해</li>
+    <li>백제의 성에서는 <span class="k">주변의 하천과 산을 지형적으로 이용하여 방어 체계를 구축</span>한 경관을 볼 수 있다.</li>
+    <li class="src">참고) 유네스코 유산 = 세계 유산(자연 유산·문화유산·복합 유산), 인류 무형 문화유산, 세계 기록 유산 (p.129)</li>
+  </ul>
+</div>
+
+<div class="item long">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">우리나라의 지역과 대표 음식</span><span class="pg">교과서 p.133~135</span></div>
+  <div class="cols2">
+    <table>
+      <tr><th>서울</th><td>서울 시민의 대표 음식 ‘<b>설렁탕</b>’ · 광장 시장: 빈대떡, 육회, 팔뚝 순대</td></tr>
+      <tr><th>강릉</th><td>바닷물 간수를 사용한 ‘<b>초당두부</b>’</td></tr>
+      <tr><th>안동</th><td>유생들의 허기를 달랜 ‘<b>헛제삿밥</b>’</td></tr>
+      <tr><th>포항</th><td>포항의 명물 ‘<b>과메기</b>’</td></tr>
+      <tr><th>광주</th><td>부드럽고 쫄깃한 ‘<b>떡갈비</b>’</td></tr>
+    </table>
+    <table>
+      <tr><th>여수</th><td>여수의 밥도둑 ‘<b>간장게장</b>’</td></tr>
+      <tr><th>부산</th><td>오래된 역사의 ‘<b>어묵</b>’ · 동래파전, 서면 돼지국밥, 비빔당면</td></tr>
+      <tr><th>전주</th><td>콩나물국밥, 피순대, 비빔밥</td></tr>
+      <tr><th>대구</th><td>서문 시장: 옛날 팥빙수, 단팥빵, 닭강정, <b>납작 만두</b></td></tr>
+    </table>
+  </div>
+  <ul>
+    <li><b>광장 시장</b>: 1905년 을사조약 체결 후 일본인들이 서울의 상권을 장악하자 상인들이 이에 맞서 세운 시장</li>
+    <li><b>동래파전</b>: 임금에게 진상, 조선 말 삼짇날 전후 동래 장터의 점심 요기 음식 · <b>비빔당면</b>: 6·25 전쟁 시절 고구마나 감자 전분으로 국수를 먹은 데서 유래</li>
+    <li><b>콩나물국밥</b>: 일제 강점기 상인들이 싸 온 주먹밥을 뜨끈한 콩나물국에 말아 먹은 데서 유래</li>
+    <li><b>납작 만두</b>: 6·25 전쟁 시절 밀가루 반죽에 당면 등을 간단하게 넣고 먹으며 허기를 달래던 음식</li>
+    <li><b>김치</b>: 북쪽 지방은 고춧가루를 적게 쓰고 육수를 이용한 시원한 백김치·동치미, <span class="k">남쪽 지방은 매운 김치</span> → 더운 여름에 김치 맛이 변하지 않게 하는 선조들의 지혜 (p.135)</li>
+  </ul>
+</div>
+
+<!-- ================= Ⅳ ================= -->
+<h2 class="unit">Ⅳ. 인류의 성찰과 공존을 위한 여행 <small>1. 기념물 여행</small></h2>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">에스파냐의 빌바오</span><span class="pg">교과서 p.143</span></div>
+  <ul>
+    <li><span class="k">에스파냐 북부의 가장 큰 항구 도시</span>. 인근에 질 좋은 <b>철광산</b>이 있었고, 영국과 가까워 무역에 유리</li>
+    <li>20세기 초반까지 <b>철강 산업과 선박 제조(조선업)의 중심지</b>, 에스파냐에서 가장 부유한 도시 중 하나</li>
+    <li>제2차 세계 대전 이후 <b>철강 산업 쇠퇴</b>, 조선업도 경쟁력을 잃어 사양길</li>
+    <li>모험에 가까운 결정: <span class="k">조선소 자리에 구겐하임 미술관 유치</span> → 주민의 반대도 있었지만 <b>1997년</b> 개관</li>
+    <li>공업 도시의 특성을 살려 <span class="k">타이타늄(티타늄)</span>으로 지음 → 기하학적인 곡선의 <b>물고기 비늘 모양</b> 외관. 타이타늄 3만여 장이 햇빛·날씨·보는 방향에 따라 다른 느낌 → 연간 방문객 100만 명 이상</li>
+    <li>교훈: <span class="k">산업 기능이 정지되거나 환경 오염이 심한 도시들을 문화 관광 산업으로 육성할 수 있다.</span></li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">폴란드 아우슈비츠 강제 수용소</span><span class="pg">교과서 p.144, 146</span></div>
+  <ul>
+    <li><b>전쟁 박물관 여행</b>: 전쟁의 쓰라린 아픔을 되돌아보는 여행 (p.146)</li>
+    <li>폴란드 <b>크라쿠프</b>에서 40km 떨어진 <b>오시비엥침</b>의 독일식 이름이 아우슈비츠 → <span class="k">나치의 유대인 학살</span>로 알려진 수용소</li>
+    <li>고압 전류가 흐르던 <b>이중 철조망</b>, 검문소, 수용자를 태워 나른 <b>검은 화물 열차의 선로</b>, 가스실</li>
+    <li>제1수용소에서 3km 떨어진 곳에 <b>제2수용소인 비르케나우 수용소</b> → 수십만 명의 유대인이 열차를 타고 들어와 죽임을 당함</li>
+    <li>나치에 의한 유대인 인종 학살의 현장이자 인류에 행한 극악한 범죄의 명백한 증거로 <span class="k">1979년 세계 문화유산</span>으로 지정</li>
+    <li><b>군함도와 비교</b> (p.144): 아우슈비츠는 세계 유산으로 지정될 당시에 <span class="k">나치가 자행한 비극의 역사를 그대로 이야기</span>하고 있다. ↔ 일본은 군함도 등재 과정에서 조선인 강제 징용 내용을 뺐다.</li>
+  </ul>
+</div>
+
+<h2 class="unit">Ⅳ. 인류의 성찰과 공존을 위한 여행 <small>3. 미래 지향적인 지역 여행</small></h2>
+
+<div class="item long">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">아랍 에미리트의 두바이</span><span class="pg">교과서 p.161~162</span></div>
+  <ul>
+    <li><b>첨단 기술 도시 여행</b>: 최신 기술이 투입되어 짧은 기간에 과거의 모습이 사라지고 새로운 도시로 탈바꿈 (p.161)</li>
+    <li>두바이는 <span class="k">도시 여행과 아랍 문화 체험, 그리고 사막 여행까지</span> 한 번에 할 수 있는 곳. 세련된 도심에 가려진 <b>황금빛 사막</b>은 순수함을 유지</li>
+    <li><span class="k">1990년대에만 해도 사막</span>이었던 도시 → 마천루가 빼곡한 <b>미래 도시</b>로 변모 (p.162)</li>
+    <li>볼거리: 바다 위의 <b>인공 섬</b>(야자수 모양 팜 아일랜드, 세계 지도 모양), 사막의 <b>실내 스키장</b>, 세계에서 가장 높은 <span class="k">부르즈 칼리파</span>(829.84m), 세계에서 가장 큰 쇼핑몰 두바이몰, 부르즈 알 아랍 호텔</li>
+    <li>발전 과정: 대추야자 재배·어업·진주 채취의 소박한 삶 → <b>1960년대 중반 석유 발견</b> → 오일 달러를 투자해 중동의 중심지로 발전</li>
+    <li><span class="k">언젠가 고갈될 석유를 대비</span>하여 건설, 무역, 관광, 부동산, 금융 서비스 등 다양한 산업 육성. 관세와 법인세를 면제해 외국 자본과 기업 유치</li>
+    <li>문제점: 높은 물가 상승률, <b>80%가 넘는 외국인 노동자 비율</b>, 부동산 가격 폭등, 만성 교통 체증, 개발에 따른 환경 오염, 2008년 금융 위기로 프로젝트 중단</li>
+  </ul>
+  <div class="warn">⚠ 주의! ‘두쫀쿠(두바이 쫀득 쿠키)’는 두바이의 전통 음식이 아닙니다! 한국에서 유행한 디저트일 뿐이에요.</div>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">핀란드 로바니에미의 산타 마을</span><span class="pg">교과서 p.164~166</span></div>
+  <ul>
+    <li><b>문화 창조 지역</b>: 창조성과 상상력을 발휘하여 <span class="k">숨어 있는 지역의 자원을 발굴해 새로운 가치를 부여</span>하는 데 초점. 지역민의 자발적인 상상력, 열정, 창조성이 필요 (p.164)</li>
+    <li>핀란드 북부 <b>라플란드의 주도 로바니에미</b> 시내에서 북쪽으로 약 8km에 <span class="k">산타 마을</span> (p.165)</li>
+    <li>산타클로스의 사무실, 전 세계 어린이 정보가 담긴 책을 소장한 도서관, <b>우체국</b>, 산타 파크</li>
+    <li>우체국은 전 세계 어린이가 보내온 <b>편지</b>로 가득 → 나라별로 분류되어 산타클로스에게 전달. 산타클로스는 편지에 일일이 답장, <b>12개 국어</b>를 구사하는 비서들이 도움</li>
+    <li>매년 크리스마스철 세계 각지에서 수십만 명의 관광객 방문</li>
+    <li>의미: <span class="k">산타클로스에 대한 어릴 때의 환상을 다시금 기억하는 추억 여행</span> (p.166)</li>
+  </ul>
+</div>
+
+<!-- ================= Ⅴ ================= -->
+<h2 class="unit">Ⅴ. 여행자와 여행지 주민이 모두 행복한 여행</h2>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">최근 한류 여행이 늘어난 이유</span><span class="pg">교과서 p.172</span></div>
+  <ul>
+    <li>최근 <span class="k">드라마를 비롯해 케이 팝(K-POP), 영화, 게임 등 우리나라의 대중문화를 좋아하는 외국인</span>들이 늘어나고 있다.</li>
+    <li>이에 따라 <b>한류와 의료, 음식, 미용, 패션, 한글</b> 등이 결합한 <span class="k">새로운 여행 상품</span>이 등장</li>
+    <li>외국인 여행자들은 <b>드라마 촬영장 방문, 케이 팝 공연 관람</b>뿐만 아니라 <b>한글과 한국 요리</b> 등 다양한 한국 문화를 배우기 위해 우리나라를 방문</li>
+    <li>대표적인 한류 관광지: 경기도 가평의 <b>남이섬, 쁘띠프랑스</b></li>
+    <li>한류의 인기에 힘입어 병원 검사·수술 후 회복을 겸한 휴가를 보내는 <span class="k">의료 관광</span>도 인기</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">올바른 책임 여행 태도</span><span class="pg">교과서 p.177~178, 196</span></div>
+  <ul>
+    <li><span class="k">책임 여행</span>: 지역의 주민과 문화, 환경에 미치는 <b>부정적 영향을 최소화하고 긍정적 영향을 최대화</b>하도록 여행자가 책임 있게 생각하고 행동하는 여행</li>
+    <li>반성할 행동: 다 마신 <b>빈 병을 몰래 버리기</b>, SNS에 올리려고 <b>촬영이 금지된 곳에서 몰래 사진 찍기</b></li>
+    <li>여행자는 <span class="k">여행지의 환경과 문화를 존중하여 보호할 책임</span>이 있다.</li>
+    <li>우리가 다녀간 다음에도 <b>그들이 이전처럼 지낼 수 있도록</b>, 다른 여행자들도 <b>그 모습을 그대로 볼 수 있도록</b> 말과 행동을 책임감 있게 하는 것</li>
+    <li>떠나기 전에 여행 정보와 맛집뿐 아니라 <span class="k">그곳의 전통과 문화, 주민의 삶, 우리가 지켜야 할 것들</span>을 알아보고 떠나는 것이 중요</li>
+    <li>사례: 서울 <b>북촌 한옥 마을</b>·이화 마을 — 너무 많은 여행자로 소음, 쓰레기, 주차, 흡연, <b>사생활 침해</b> 문제 → 주민이 마을을 떠나기도 함 (p.178)</li>
+    <li class="src">참고) 1989년 세계 관광 기구 세미나에서 개념 등장, 공정 여행·착한 여행과 같은 의미 (p.177)</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">생태 여행 태도</span><span class="pg">교과서 p.183~184, 196</span></div>
+  <ul>
+    <li><span class="k">생태 여행</span>: <b>환경 보전을 하면서 지구의 자연환경을 즐기는 여행</b>. 자연환경의 소중함을 배우고 즐기며 자연 보전에 이바지하는 것이 목적</li>
+    <li>보존 가치가 높거나 위기에 처한 생태계를 관찰·체험하는 <span class="k">교육적 측면</span>이 강함. 부정적 영향을 줄이기 위해 <b>소규모 인원</b>으로 다님</li>
+  </ul>
+  <table>
+    <tr><th colspan="2">생태 여행 Tips (p.183)</th></tr>
+    <tr><td>1</td><td>생태 여행지를 갈 때는 자가용보다 <b>대중교통</b>을 이용한다.</td></tr>
+    <tr><td>2</td><td>정해진 <b>탐방로나 탐방 지역을 벗어나지 않는다.</b></td></tr>
+    <tr><td>3</td><td><b>낙서, 동식물 채집</b> 등 생태 여행지를 훼손하지 않는다.</td></tr>
+    <tr><td>4</td><td>동식물을 함부로 촬영하고 만지거나, <b>떠들어서 놀라게 하지 않는다.</b></td></tr>
+    <tr><td>5</td><td>생태 여행 후 <b>쓰레기는 집으로 가져간다.</b></td></tr>
+  </table>
+  <p class="note">오스트레일리아 데인트리 국립 공원: “기본 원칙은 처음 왔을 때처럼 숲을 그대로 두는 것이다. <span class="k">즐긴 뒤에는 발자국만 남기고 사진만 가져가라.</span>” (p.184)</p>
+</div>
+
+<div class="item long">
+  <div class="ihead"><span class="num">◆</span><span class="ttl">공정 여행 태도</span><span class="pg">교과서 p.185~186, 196</span></div>
+  <ul>
+    <li><span class="k">공정 여행</span>: 여행자와 지역 주민 모두 행복할 수 있도록 여행이 지역의 경제, 문화, 환경에 도움이 되며, <b>지역 주민에게 혜택이 돌아가는 여행</b> = <b>착한 여행</b></li>
+    <li>기본 철학: <span class="k">‘아름다운 여행의 대가는 오랫동안 그 땅을 지켜 온 사람들에게 공정하게 돌아가야 한다.’</span></li>
+    <li>여행자들이 쓴 돈이 지역 주민에게 직접 돌아가지 않는 문제를 해결하기 위해 생겨남</li>
+    <li>고급 호텔보다는 <b>지역 주민이 운영하는 숙박 시설과 음식점</b>, 대형 상점보다는 <b>전통 시장</b>, 지역 주민이 안내하는 프로그램에 참여해 <b>정당한 대가</b> 지급</li>
+  </ul>
+  <table>
+    <tr><th colspan="2">공정 여행자가 되는 10가지 방법 (p.186)</th></tr>
+    <tr><td>1</td><td><b>현지인이 운영하는</b> 숙소와 음식점, 교통편, 여행사를 이용한다.</td></tr>
+    <tr><td>2</td><td><b>멸종 위기</b>에 놓인 동식물로 만든 기념품(조개, 산호, 상아)은 사지 않는다.</td></tr>
+    <tr><td>3</td><td>직원에게 <b>적정한 임금</b>을 주는 숙소나 여행사를 이용하고 <b>동물을 학대하는 쇼나 투어</b>에 참여하지 않는다.</td></tr>
+    <tr><td>4</td><td>지구 온난화를 부추기는 <b>비행기 이용을 줄이고</b>, 전기와 물을 아껴 쓴다. 일회용품을 쓰지 않는다.</td></tr>
+    <tr><td>5</td><td><b>공정 무역 제품</b>을 이용한다. <b>지나치게 가격을 깎지 않는다.</b></td></tr>
+    <tr><td>6</td><td>현지의 인사말과 노래, 춤을 배워 본다.</td></tr>
+    <tr><td>7</td><td>여행지의 <b>생활 방식과 종교를 존중</b>하고 예의를 갖춘다.</td></tr>
+    <tr><td>8</td><td>여행 경비의 <b>1%</b>는 현지의 단체에 기부한다.</td></tr>
+    <tr><td>9</td><td>사진을 찍을 때는 <b>허락</b>을 구하고 현지인과 한 약속을 지킨다.</td></tr>
+    <tr><td>10</td><td>내 여행의 기억을 기록하고 공유한다.</td></tr>
+  </table>
+  <p class="note">히말라야 트레킹: 짐꾼에게 적정한 임금과 휴식 시간을 주는지, 의료 보험과 장비를 지원하는지 확인하자. (p.186)</p>
+</div>
+
+<footer>※ 교과서: 고등학교 여행지리(박종관 외) 2학기 범위 · 쪽수는 교과서 페이지 기준 · 주황색 상자는 교과서 밖 보충 내용</footer>
+</div>
+</body>
+</html>
